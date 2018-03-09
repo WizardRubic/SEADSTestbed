@@ -1,4 +1,4 @@
-from flask import Flask, abort, request
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -9,7 +9,7 @@ def get_example():
 
 @app.route('/switch_example/<int:switch_num>',methods=['POST'])
 def switch_example(switch_num):
-	print "change state of, switch #",switch_num
+	print("change state of, switch #", switch_num)
 
 	# output_example = "switch #"+ switch_num
 	return "switch #" + str(switch_num) + " state changed\n"

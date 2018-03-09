@@ -1,3 +1,7 @@
+__author__ = "Ric Rodriguez"
+__email__ = "therickyross2@gmail.com"
+__project__ = "SEADSTestbed"
+
 import logging
 import tkinter
 
